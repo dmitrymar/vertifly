@@ -59,9 +59,57 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Sidenav for Docs
+-------------------------------------------------- */
+
+.bs-docs-sidenav {
+  width: 228px;
+  margin: 30px 0 0 30px;
+  padding: 0;
+  list-style:none;
+
+}
+.bs-docs-sidenav > li > a {
+  display: block;
+  width: 190px;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  border: 1px solid #e5e5e5;
+  background-color:#FF0;
+
+}
+.bs-docs-sidenav > li > a > i {
+	background-image: url(img/rt-arrow.gif);
+background: url(img/rt-arrow.gif) no-repeat scroll 0 0 transparent;
+    height:13px;
+/*	background-position: 0 0;
+position: static;
+float: right;
+top: .2em;
+left: .2em;
+width: 7px;
+height: 7px;
+display: block;
+text-indent: -99999px;
+overflow: hidden;
+background-repeat: no-repeat;
+line-height: 1.5;
+font-weight: normal;*/
+}
+.bs-docs-sidenav > .active > a {
+  position: relative;
+  z-index: 2;
+  padding: 9px 15px;
+  border: 0;
+}
 
 
-
+#test {
+background: url(img/rt-arrow.gif) no-repeat scroll 0 0 transparent;
+    height:13px;
+	width:13px;
+/*	background-color:#CFF;
+*/}
 
 
 
