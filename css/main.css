@@ -63,38 +63,41 @@ textarea {
 -------------------------------------------------- */
 
 .bs-docs-sidenav {
-  width: 228px;
+  width: 226px;
   margin: 30px 0 0 30px;
   padding: 0;
   list-style:none;
 
 }
+.bs-docs-sidenav li {
+}
+.bs-docs-sidenav li:hover {
+    background: #ccc;
+}
 .bs-docs-sidenav > li > a {
   display: block;
-  width: 190px;
+  width: 210px;
   margin: 0 0 -1px;
-  padding: 8px 14px;
-  border: 1px solid #e5e5e5;
-  background-color:#FF0;
-
+  height:22px;
+  padding: 4px 8px 4px 6px;
+  border: 1px solid #d4d4d4;
+  text-decoration:none;
+  font:Arial, Helvetica, sans-serif;
+  font-size:15px;
+  color:#444;
 }
 .bs-docs-sidenav > li > a > i {
-	background-image: url(img/rt-arrow.gif);
-background: url(img/rt-arrow.gif) no-repeat scroll 0 0 transparent;
+background: url(../img/rt-arrow.gif) no-repeat scroll 0 0 transparent;
     height:13px;
-/*	background-position: 0 0;
+	width:7px;
+display: block;
+	background-position: 0 0;
 position: static;
 float: right;
-top: .2em;
-left: .2em;
-width: 7px;
-height: 7px;
-display: block;
-text-indent: -99999px;
+margin-top:5px;
 overflow: hidden;
 background-repeat: no-repeat;
-line-height: 1.5;
-font-weight: normal;*/
+font-weight: normal;
 }
 .bs-docs-sidenav > .active > a {
   position: relative;
@@ -105,7 +108,7 @@ font-weight: normal;*/
 
 
 #test {
-background: url(img/rt-arrow.gif) no-repeat scroll 0 0 transparent;
+background-image:url(../img/rt-arrow.gif);
     height:13px;
 	width:13px;
 /*	background-color:#CFF;
